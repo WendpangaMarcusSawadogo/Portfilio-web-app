@@ -1,0 +1,86 @@
+
+ #about {
+    margin-top: 140px;
+}
+
+.main_container2{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 640px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.about_us{
+    text-decoration: underline;
+}
+
+.about1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 0.75;
+    border-radius: 10px;
+    background-color: rgb(160, 141, 162);
+    box-shadow: 2px 2px 2px rgb(197, 196, 196);
+}
+
+.about2{
+    flex: 3;
+    display: flex;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex: 1;
+    background-color: white;
+    border: solid rgb(223, 222, 222) 1px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(169, 169, 169);
+}
+
+.second{
+    padding: 20px;
+    flex: 1;
+    background-color: white;
+    border: solid rgb(219, 219, 219) 1px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(176, 175, 175);
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex: 1;
+    background-color: white;
+    border: solid rgb(224, 223, 223) 1px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(177, 177, 177);
+}
+
+#contact_us{
+    color: rgb(253, 68, 68);
+}
+
+#contact_us:hover{
+    text-decoration: underline;
+}
+
+#email{
+    color: coral;
+}
+
+#email:hover{
+    text-decoration: underline;
+}

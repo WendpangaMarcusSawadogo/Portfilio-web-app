@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static\subindex.css">
+</head>
+<body id="subindex">
+    <header>
+        {%extends "index.html" %}  
+    </header>
+
+
+    <main>
+
+        {% block body %}
+
+        <div class="main_container">
+
+            <div class="container">
+                <div class="first_container">
+                    <figure class="figure_1">
+                        <img class="image" src="static\image\welcome.png" alt="wecome page">
+
+                        <figcaption class="figcaption_1">
+
+                            <h4>You can also follow us on:</h4>
+        
+                            <span class="my_span2">
+                                <img src="static\image\facebook.png" alt="facebook">
+                            </span>
+                            
+                            <span class="my_span2">
+                                <img src="static\image\twiter.png" alt="twiter">
+                            </span>
+        
+                            <span class="my_span2">
+                                <img src="static\image\instagram.png" alt="Instagram">
+                            </span>
+                        </figcaption>
+                    </figure>
+                </div>
+                            
+                <div class="second_container">
+                            
+                    <h2>Web Application developped by GROUP A members</h2>
+
+                </div>
+            </div>
+
+
+            <div class="container2">
+                <p> <b> <i> Dear Members,<br>
+                
+                I would like to take this opportunity to express my sincere gratitude for your support and encouragement during the
+                development of my portfolio web application. Your guidance and expertise have been invaluable in helping me to create a product that I am truly proud of.
+                
+                I would like to thank you for your time, patience, and willingness to share your knowledge with me. Your insights and
+                suggestions have helped me to create a user-friendly and visually appealing portfolio that showcases my skills and accomplishments.
+                
+                I am grateful for your support and belief in my abilities. Your encouragement and positive feedback helped me to stay
+                motivated and to push through the challenges that I faced during the development process.
+                
+                I would like to thank you again for your help and support. I hope that my portfolio web application will be of value to
+                you and your organization.
+                </i> </b> </p>
+            </div>
+
+        </div>
+        
+        
+        {% endblock %}
+
+    </main>
+
+
+    <footer>
+
+    </footer>
+</body>
+</html>

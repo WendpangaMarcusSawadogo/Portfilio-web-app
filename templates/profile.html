@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static\profile.css">
+    <title>Document</title>
+</head>
+<body id="profile">
+    <header>
+        {%extends "index.html" %}
+    </header>
+
+    {% block body %}
+    <main>
+            <div class="main_container3">
+                <div class="profile1">
+                    <div class="edit">
+                        <h3 class="text">User Profile</h3>
+                        <img class="profile_image" src="static\image\profile.JPG" alt="profile">
+                        <a href="#" id="edit_profile">Edit Profile</a>
+                    </div>
+    
+                    <div class="contact_details">
+                        <ul> 
+                                <li> <img src="static\image\email.png" alt="Email Adresss"> <b><i>Email Address: marcus@gmail.com</i></b></li>
+                                <li> <img src="static\image\phone.png" alt="Phone "> <b><i>Phone Number: +2347030583750</i></b> </li>
+                                <li> <img src="static\image\phone.png" alt="Phone ">  <b><i>Additional Phone Number: +23490394574835</i></b></li>
+                        </ul>
+                        <div class="media">
+                            <h4>You can also follow us on:</h4>
+
+                            <span class="my_span2">
+                                <img src="static\image\whatsapp.png" alt="WhatsApp">
+                            </span>
+
+                            <span class="my_span2">
+                                <img src="static\image\black_facebook.png" alt="facebook">
+                            </span>
+                            
+                            <span class="my_span2">
+                                <img src="static\image\black_instagram.png" alt="instagram">
+                            </span>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="profile2">
+                    <h5>User Information</h5>
+                    <div class="bio">
+                            <h2>Bio</h2>
+                            <p>
+                                <i>
+                                    Meet SAWADOGO WENDPANGA MARCUS, a 20-year-old web and app developer hailing from Burkina Faso. With 1 year of
+                                    experience in the industry, MARCUS specializes in web and mobile applications that are both
+                                    visually stunning and user-friendly. Utilizing the latest technologies and industry best practices, MARCUS is able
+                                    to deliver high-quality, reliable software that exceeds client expectations.
+                                </i>
+                            </p>
+                        
+                        <ul>
+                            <b>
+                                <i>
+                                <li>Surname: SAWADOGO</li>
+                                <li>Middle Name: WENDPANGA</li>
+                                <li>Last Name: Marcus</li>
+                                <li>Qualification: Web & App developper</li>
+                                <li>Years of experience: 1year</li>
+                                </i>
+                            </b>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <footer>
+        {%include "footer.html" %}
+    </footer>
+    {% endblock %}
+</body>
+</html>

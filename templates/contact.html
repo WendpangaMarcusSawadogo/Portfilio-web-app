@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static\contact.css">
+    <title>Document</title>
+</head>
+<body id="contact">
+    <header>
+        {%extends "index.html" %}
+    </header>
+
+    {% block body %}
+    <main>
+
+        <div class="main_container4">
+            <div class="contact_us">
+                <h1>Contact Us</h1>
+            </div>
+
+            <div class="my_contact_form">
+                <h3 class="fill_form">Fill your contact informations right here!!!</h3>
+                <form action="#" method="#">
+                    <label for="">Name</label>
+                    <input type="text" placeholder="Enter your name">
+
+                    <label for="">Email</label>
+                    <input type="email" placeholder="Email Address">
+
+                    <label for="">Phone Number</label>
+                    <input type="number" placeholder="Phone number">
+
+                    <label for="">Description</label>
+                    <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+
+                    <input id="submit" type="submit" title="Submit">
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        {%include "footer.html" %}
+    </footer>
+    {% endblock %}
+</body>
+</html>

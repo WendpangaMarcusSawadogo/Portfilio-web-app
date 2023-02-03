@@ -1,0 +1,105 @@
+#subindex{
+    margin-top: 130px;
+    padding: 15px;
+}
+
+.main_container{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    width:100%
+}
+
+.container{
+    display: flex;
+    gap: 30px;
+}
+
+.container2{
+    margin-top: 20px;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(129, 129, 129);
+}
+
+.first_container{
+    display: flex;  
+    align-items:center;
+    justify-content: center;
+    position: relative;
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(69, 69, 69);
+}
+
+ .figure_1{
+    flex: none;
+    align-items: flex-start;
+    position: relative;
+    display:block;
+    width: 100%;
+    height: 100%;
+}
+
+.figure_1 .image{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.figcaption_1{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.236);
+    border-radius: 10px;
+}
+
+.figcaption_1 h4{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.my_span2{
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.my_span2 img{
+    width: 40px;
+}
+
+.second_container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    padding: 20px;
+    height: auto;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(69, 69, 69);
+    border: solid rgb(179, 0, 255) 25px; 
+}
+
+.second_container h2{
+    font-size: 40px;
+    text-shadow: 1px 3px 3px rgb(86, 86, 86);
+}
+
+#link{
+    color: red;
+}
+#link:hover{
+    text-decoration: underline;
+}

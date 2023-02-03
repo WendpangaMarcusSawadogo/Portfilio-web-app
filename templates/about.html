@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static\about.css">
+    <title>Document</title>
+</head>
+<body id="about">
+    <header>
+        {% extends "index.html" %}
+    </header>
+
+    {% block body %}
+    <main>
+
+        <div class="main_container2">
+            <div class="about1">
+                <h1 class="about_us">About Us:</h1>
+            </div>
+
+            <div class="about2">
+                <div class="first">
+                    <p><b><i>
+                        Hello!!! I'm SAWADOGO WENDPANGA MARCUS <br>
+                        form computer science department. <br>
+                        Matric Number: VUG/CSC/21/5713 <br>
+
+                        In our portfolio web app, I have highlighted my experiences as a Web and App developer and showcased my skills and abilities through a variety of projects and work samples
+
+                    </i></b></p>
+                    <a id="email" href="#">marcus@gmail.com</a>
+                </div>
+
+                <div class="second">
+                    <h3>Services:</h3>
+                    <ul>
+                        <b>
+                            <li>Web Development</li>
+                            <li>Web Design</li>
+                            <li>UI/UX Design</li>
+                            <li>More...</li>
+                        </b>
+                    </ul>
+                    
+                    <p><b>
+                            We specialize in creating responsive, mobile-friendly websites <br>
+                            that are optimized for speed and performance. We also have <br>
+                            experience with various web development technologies, such as HTML, <br>
+                            CSS, JavaScript, and popular frameworks like React
+                            and Angular.
+                    </b></p>
+
+                </div>
+
+                <div class="third">
+                    <p><b><i>Thank you for visiting our portfolio web app. We hope you find it informative and helpful in understanding our capabilities
+                    as a web developers. If you have any questions or would like to discuss a potential project, please feel free to contact
+                    us.</i></b></p>
+
+                    <a id="contact_us" href="#">Contact Us For More</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        {%include "footer.html" %}
+    </footer>
+    {% endblock %}
+</body>
+</html>

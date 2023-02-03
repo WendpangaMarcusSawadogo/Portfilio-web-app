@@ -1,0 +1,146 @@
+#profile{
+    margin-top: 140px;
+}
+
+.main_container3{
+    height: 640px;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 10px;
+}
+.profile1{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+
+.profile2{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    border: solid rgb(237, 237, 237) 1px;
+    border-radius: 10px;
+    background-color: rgb(98, 98, 98);
+    box-shadow: 2px 2px 2px rgb(104, 104, 104); 
+}
+
+.profile2 h5{
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+
+.edit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    flex: 1.5;
+    overflow: hidden;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgb(178, 177, 177);
+    border: solid rgb(237, 237, 237) 1px;
+    border-radius: 10px;
+}
+
+.text{
+    color: rgb(0, 0, 0);
+}
+
+.edit .profile_image{
+    width: 30%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 100px;
+    border: solid rgb(235, 132, 7) 5px;  
+}
+
+#edit_profile{
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: palevioletred;
+    border: solid rgb(117, 117, 117) 2px;
+    border-radius: 20px;
+}
+
+#edit_profile:hover{
+    cursor: pointer;
+}
+
+#edit_profile:active{
+    background-color: rgb(204, 204, 204);
+}
+
+#your_profile{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+.contact_details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    flex: 1;
+    background-color: white;
+    box-shadow: 2px -2px 2px rgb(200, 200, 200);
+    border: solid rgb(237, 237, 237) 1px;
+    border-radius: 10px;
+}
+
+.bio{
+    padding: 10px;
+    background-color: white;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.bio h2{
+    text-decoration: underline;
+    color: rgb(70, 13, 117);
+    font-size: 30px;
+}
+
+.bio p{
+    color: rgb(5, 69, 94);
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.bio ul{
+    font-size: 20px;
+    color: rgb(82, 41, 82);
+}
+
+.media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.my_span2:hover{
+
+    cursor: pointer;
+}
